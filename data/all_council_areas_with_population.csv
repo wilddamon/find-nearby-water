@@ -1,0 +1,130 @@
+element,id,name,updated name,population,source:population,population:date,coastal,greater_sydney
+relation,3487773,Albury City Council,Albury,56093,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6165969,Armidale Regional Council,Armidale,29124,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6168644,Ballina Shire Council,Ballina,46296,Australian Bureau of Statistics,2021,TRUE,FALSE
+relation,5897433,Balranald Shire Council,Balranald,2208,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6330866,Bathurst Regional Council,Bathurst Regional,43567,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,7038238,Bayside Council,Bayside,175184,Australian Bureau of Statistics,2021,TRUE,TRUE
+relation,6239664,Bega Valley Shire Council,Bega Valley,35942,Australian Bureau of Statistics,2021,TRUE,FALSE
+relation,6165980,Bellingen Shire Council,Bellingen,13253,Australian Bureau of Statistics,2021,TRUE,FALSE
+relation,6230406,Berrigan Shire Council,Berrigan,8665,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6217858,Blacktown City Council,Blacktown,396776,Australian Bureau of Statistics,2021,FALSE,TRUE
+relation,6257747,Bland Shire Council,Bland,5547,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6423630,Blayney Shire Council,Blayney,7497,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6299568,Blue Mountains City Council,Blue Mountains,78121,Australian Bureau of Statistics,2021,FALSE,TRUE
+relation,6086047,Bogan Shire Council,Bogan,2467,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,5892186,Bourke Shire Council,Bourke,2340,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6076330,Brewarrina Shire Council,Brewarrina,1356,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,5892296,Broken Hill City Council,Broken Hill,17588,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,2161967,Burwood Council,Burwood,40217,Australian Bureau of Statistics,2021,FALSE,TRUE
+relation,6170304,Byron Shire Council,Byron,36116,Australian Bureau of Statistics,2021,TRUE,FALSE
+relation,6268804,Cabonne Council,Cabonne,13766,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6290069,Camden Council,Camden,119325,Australian Bureau of Statistics,2021,FALSE,TRUE
+relation,6290704,Campbelltown City Council,Campbelltown,176519,Australian Bureau of Statistics,2021,FALSE,TRUE
+relation,6217271,City of Canada Bay Council,Canada Bay,89177,Australian Bureau of Statistics,2021,TRUE,TRUE
+relation,2162244,Canterbury-Bankstown Council,Canterbury-Bankstown,371006,Australian Bureau of Statistics,2021,FALSE,TRUE
+relation,6095007,Carrathool Shire Council,Carrathool,2866,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6195207,Central Coast Council,Central Coast,346596,Australian Bureau of Statistics,2021,TRUE,FALSE
+relation,5885448,Central Darling Shire Council,Central Darling,1725,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6191219,Cessnock City Council,Cessnock,63632,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6143220,Clarence Valley Council,Clarence Valley,54115,Australian Bureau of Statistics,2021,TRUE,FALSE
+relation,6083910,Cobar Shire Council,Cobar,4059,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6165983,Coffs Harbour City Council,Coffs Harbour,78759,Australian Bureau of Statistics,2021,TRUE,FALSE
+relation,6321566,Coolamon Shire Council,Coolamon,4385,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,7145506,Coonamble Shire Council,Coonamble,3732,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6247073,Cootamundra-Gundagai Regional Council,Cootamundra-Gundagai Regional,11403,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6257796,Cowra Shire Council,Cowra,12724,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6210859,Cumberland City Council,Cumberland,235439,Australian Bureau of Statistics,2021,FALSE,TRUE
+relation,6268489,Dubbo Regional Council,Dubbo Regional,54922,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6185449,Dungog Shire Council,Dungog,9541,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6139012,Edward River Council,Edward River,8456,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6239661,Eurobodalla Shire Council,Eurobodalla,40593,Australian Bureau of Statistics,2021,TRUE,FALSE
+relation,6212438,Fairfield City Council,Fairfield,208475,Australian Bureau of Statistics,2021,FALSE,TRUE
+relation,6232188,Federation Council,Federation,12899,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6413174,Forbes Shire Council,Forbes,9319,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6205809,Georges River Council,Georges River,152274,Australian Bureau of Statistics,2021,TRUE,TRUE
+relation,6268488,Gilgandra Shire Council,Gilgandra,4295,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6163165,Glen Innes Severn Council,Glen Innes Severn,8931,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6310493,Goulburn Mulwaree Council,Goulburn Mulwaree,32053,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,3487850,Greater Hume Shire Council,Greater Hume Shire,11157,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6149251,Griffith City Council,Griffith,27086,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6389934,Gunnedah Shire Council,Gunnedah,12929,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6260771,Gwydir Shire Council,Gwydir,4910,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6222206,Hawkesbury City Council,Hawkesbury,67207,Australian Bureau of Statistics,2021,FALSE,TRUE
+relation,6092948,Hay Shire Council,Hay,2882,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6256597,Hilltops Council,Hilltops,19254,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6218957,The Council of the Shire of Hornsby,Hornsby,151811,Australian Bureau of Statistics,2021,TRUE,TRUE
+relation,6273237,The Council of the Municipality of Hunters Hill,Hunters Hill,13559,Australian Bureau of Statistics,2021,TRUE,TRUE
+relation,1251053,Inner West Council,Inner West,182818,Australian Bureau of Statistics,2021,TRUE,TRUE
+relation,6195194,Inverell Shire Council,Inverell,17853,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6252194,Junee Shire Council,Junee,6415,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6178731,Kempsey Shire Council,Kempsey,30688,Australian Bureau of Statistics,2021,TRUE,FALSE
+relation,6311642,The Council of the Municipality of Kiama,Kiama,23074,Australian Bureau of Statistics,2021,TRUE,FALSE
+relation,6228261,Ku-ring-gai Council,Ku-ring-gai,124076,Australian Bureau of Statistics,2021,TRUE,TRUE
+relation,6163138,Kyogle Council,Kyogle,9359,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6106054,Lachlan Shire Council,Lachlan,6094,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6191221,City of Lake Macquarie,Lake Macquarie,213845,Australian Bureau of Statistics,2021,TRUE,FALSE
+relation,6275980,Lane Cove Municipal Council,Lane Cove,39438,Australian Bureau of Statistics,2021,TRUE,TRUE
+relation,6411154,Leeton Shire Council,Leeton,11452,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6168485,Lismore City Council,Lismore,44334,Australian Bureau of Statistics,2021,TRUE,FALSE
+relation,6299566,Lithgow City Council,Lithgow,20842,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6212442,Liverpool City Council,Liverpool,233446,Australian Bureau of Statistics,2021,FALSE,TRUE
+relation,6364998,Liverpool Plains Shire Council,Liverpool Plains,7551,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6322050,Lockhart Shire Council,Lockhart,3319,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6189782,Maitland City Council,Maitland,90226,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6249291,Mid-Coast Council,Mid-Coast,96579,Australian Bureau of Statistics,2021,TRUE,FALSE
+relation,6268502,Mid-Western Regional Council,Mid-Western Regional,25713,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6088821,Moree Plains Shire Council,Moree Plains,12751,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6276645,Mosman Municipal Council,Mosman,28329,Australian Bureau of Statistics,2021,TRUE,TRUE
+relation,6134295,Murray River Council,Murray River,12850,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6231900,Murrumbidgee Council,Murrumbidgee,3353,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6343182,Muswellbrook Shire Council,Muswellbrook,16357,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6165979,Nambucca Valley Council,Nambucca Valley,20407,Australian Bureau of Statistics,2021,TRUE,FALSE
+relation,6389900,Narrabri Shire Council,Narrabri,12703,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6322034,Narrandera Shire Council,Narrandera,5698,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6271676,Narromine Shire Council,Narromine,6360,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6189831,City of Newcastle,Newcastle,168873,Australian Bureau of Statistics,2021,TRUE,FALSE
+relation,6275976,North Sydney Council,North Sydney,68950,Australian Bureau of Statistics,2021,TRUE,TRUE
+relation,2978550,Northern Beaches Council,Northern Beaches,263554,Australian Bureau of Statistics,2021,TRUE,TRUE
+relation,6307911,Oberon Council,Oberon,5580,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6427044,Orange City Council,Orange,43512,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6271674,Parkes Shire Council,Parkes,14361,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6217262,City of Parramatta Council,Parramatta,256729,Australian Bureau of Statistics,2021,TRUE,TRUE
+relation,6282698,Penrith City Council,Penrith,217664,Australian Bureau of Statistics,2021,FALSE,TRUE
+relation,6180709,Port Macquarie-Hastings Council,Port Macquarie-Hastings,86762,Australian Bureau of Statistics,2021,TRUE,FALSE
+relation,6185732,Port Stephens Council,Port Stephens,75276,Australian Bureau of Statistics,2021,TRUE,FALSE
+relation,6137309,Queanbeyan-Palerang Regional Council,Queanbeyan-Palerang Regional,63304,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6201664,Randwick City Council,Randwick,134252,Australian Bureau of Statistics,2021,TRUE,TRUE
+relation,6143221,Richmond Valley Council,Richmond Valley,23565,Australian Bureau of Statistics,2021,TRUE,FALSE
+relation,6218884,Council of the City of Ryde,Ryde,129123,Australian Bureau of Statistics,2021,TRUE,TRUE
+relation,6304532,Shellharbour City Council,Shellharbour,76271,Australian Bureau of Statistics,2021,TRUE,FALSE
+relation,6311648,Shoalhaven City Council,Shoalhaven,108531,Australian Bureau of Statistics,2021,TRUE,FALSE
+relation,6191883,Singleton Council,Singleton,24577,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6239422,Snowy Monaro Regional Council,Snowy Monaro Regional,21666,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6239423,Snowy Valleys Council,Snowy Valleys,14891,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6210847,Strathfield Municipal Council,Strathfield,45593,Australian Bureau of Statistics,2021,FALSE,TRUE
+relation,6206752,Sutherland Shire Council,Sutherland Shire,230211,Australian Bureau of Statistics,2021,TRUE,TRUE
+relation,1251066,Council of the City of Sydney,Sydney,211632,Australian Bureau of Statistics,2021,TRUE,TRUE
+relation,6365595,Tamworth Regional Council,Tamworth,63070,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6252224,Temora Shire Council,Temora,6034,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6163155,Tenterfield Shire Council,Tenterfield,6810,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6219220,The Hills Shire Council,The Hills Shire,191876,Australian Bureau of Statistics,2021,FALSE,TRUE
+relation,6170302,Tweed Shire Council,Tweed,97392,Australian Bureau of Statistics,2021,TRUE,FALSE
+relation,7032873,Unincorporated Far West Area,Unincorporated NSW,1016,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6186848,Upper Hunter Shire Council,Upper Hunter Shire,14229,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6257920,Upper Lachlan Shire Council,Upper Lachlan Shire,8514,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6260188,Uralla Shire Council,Uralla,5971,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6247060,Wagga Wagga City Council,Wagga Wagga,67609,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6180603,Walcha Council,Walcha,3016,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6079201,Walgett Shire Council,Walgett,5253,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6100934,Warren Shire Council,Warren,2550,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6268496,Warrumbungle Shire Council,Warrumbungle,9225,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6203556,Waverley Council,Waverly,68605,Australian Bureau of Statistics,2021,TRUE,TRUE
+relation,6257772,Weddin Shire Council,Weddin,3608,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,5884892,Wentworth Shire Council,Wentworth,7453,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6230051,Willoughby City Council,Willoughby,75613,Australian Bureau of Statistics,2021,TRUE,TRUE
+relation,6304530,Wingecarribee Shire Council,Wingecarribee,52709,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6287823,Wollondilly Shire Council,Wollongdilly,53961,Australian Bureau of Statistics,2021,FALSE,FALSE
+relation,6303077,Wollongong City Council,Wollongong,214564,Australian Bureau of Statistics,2021,TRUE,FALSE
+relation,6203650,Woollahra Municipal Council,Woollahra,53496,Australian Bureau of Statistics,2021,TRUE,TRUE
+relation,6247446,Yass Valley Council,Yass Valley,17281,Australian Bureau of Statistics,2021,FALSE,FALSE
