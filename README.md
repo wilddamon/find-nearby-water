@@ -4,6 +4,8 @@ natural water body was involved in the incident.
 
 For obvious reasons, the actual ambulance data cannot be included in this repository. However, this file 
 can be used to generate some data that is the same shape as our dataset so you can try out our scripts.
+The scripts should be run in the order described below (except: random\_points.py is optional; 
+water\_tags.py does not need to be run).
 
 Dependencies:  
 * osmnx <https://osmnx.readthedocs.io/>  
