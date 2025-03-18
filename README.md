@@ -2,10 +2,10 @@
 These were used in a study of drowning-related ambulance dispatch locations to try and identify whether a 
 natural water body was involved in the incident.
 
-For obvious reasons, the actual ambulance data cannot be included in this repository. However, this file 
-can be used to generate some data that is the same shape as our dataset so you can try out our scripts.
-The scripts should be run in the order described below (except: random\_points.py is optional; 
-water\_tags.py does not need to be run).
+For obvious reasons, the actual ambulance data cannot be included in this repository. However, the included
+script can be used to generate random data that is the same shape as our dataset so you can try out our scripts.
+The scripts should be run in the order described below (except for random\_points.py (optional to regenerate
+the random data; and water\_tags.py does not need to be run).
 
 Dependencies:  
 * osmnx <https://osmnx.readthedocs.io/>  
