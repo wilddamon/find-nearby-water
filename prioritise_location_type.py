@@ -357,6 +357,7 @@ def main():
         )
         data.at[idx, "prioritised_feature_index"] = result_idx
 
+    data.set_index("patient_id", inplace=True)
     data.to_csv(f"{args.filename[:-4]}-heuristic-applied.csv")
 
 

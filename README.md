@@ -44,8 +44,6 @@ Takes a csv file containing patient_id, Pickup_Latitude, and Pickup_Longitude, a
 cached data (resulting from cache\_water\_points.py) water features within the METRO_RADIUS and
 REGIONAL_RADIUS specified in the file (100m and 500m). It outputs the results to a file in the outputs
 directory.
-It also accumulates some statistics about what was found, and outputs those to a file in the outputs
-directory.
 
 Options:
 *filename* (required) the path to a .csv file containing the input data.
@@ -57,9 +55,9 @@ Usage:
   
 For example, this takes the example random lat/lngs file checked into this repository, and fetches 
 relevant water features for the first 10 points, and outputs a file named
-"random\_lat\_lngs-with-water.csv" and "random\_lat\_lngs-stats.txt":
+"random\_lat\_lngs-with-water.csv":
   
-  python add_water_to_data.py data/random_lat_lngs.csv
+    python add_water_to_data.py data/random_lat_lngs.csv
   
 # process\_locations.py
 Takes the result from add\_water\_to\_data.py, and removes piers/bridges, replaces surf life saving

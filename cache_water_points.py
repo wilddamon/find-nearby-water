@@ -39,18 +39,19 @@ def get_cached_features_near_point(patient_id, radius, max_features=None):
             relevant_count = i - 1 if i > 0 else 0
             break
     
-    if max_features is not None and relevant_count < max_features:
-        row = row[: (max_features * 6) + 5]
-        # Clear out further away features
-        for i in range(relevant_count + 1, max_features):
-            row[f"water_name_{i}"] = None
-            row[f"water_type_{i}"] = None
-            row[f"water_distance_{i}"] = None
-            row[f"water_lifeguard_{i}"] = None
+    if max_features is not None:
+        row = row[: (max_features * 4) + 1]
+        if relevant_count < max_features:
+            # Clear out further away features
+            for i in range(relevant_count + 1, max_features):
+                row[f"water_name_{i}"] = None
+                row[f"water_type_{i}"] = None
+                row[f"water_distance_{i}"] = None
+                row[f"water_lifeguard_{i}"] = None
     else:
-        row = row[: (relevant_count * 6) + 5]
+        row = row[: (relevant_count * 4) + 1]
 
-    row["water_count"] = relevant_count
+    row["water_count"] = min(relevant_count, max_features)
     return row
 
 

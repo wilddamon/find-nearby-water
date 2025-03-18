@@ -22,29 +22,6 @@ REGIONAL_RADIUS = 500
 MAX_FEATURES = 50
 
 
-def accumulate_stats(features):
-    names_counter = collections.Counter()
-    place_types_counter = collections.Counter()
-    num_places_found_counter = collections.Counter()
-
-    for latlng in features:
-        row = features[latlng]
-        if row is None:
-            continue
-        count = row["water_count"]
-        if count is None:
-            count = 0
-        for i in range(count):
-            name = row[f"water_name_{i}"]
-            if pandas.notna(name):
-                names_counter[name] += 1
-
-            water_type = row[f"water_type_{i}"]
-            place_types_counter[water_type] += 1
-        num_places_found_counter[count] += 1
-    return names_counter, place_types_counter, num_places_found_counter
-
-
 def find_cache_water_points(in_data, radius, regional_radius):
     features = {}
     for i in range(len(in_data)):
@@ -76,43 +53,11 @@ def run(in_data, in_filename):
     features = find_cache_water_points(
         in_data, METRO_RADIUS, REGIONAL_RADIUS,
     )
-    features_df = pandas.DataFrame(features)
-
-    print("Generating statistics")
-    (
-        place_names_counter,
-        place_types_counter,
-        num_places_found_counter,
-    ) = accumulate_stats(features)
-    features_df = features_df.transpose()
+    features_df = pandas.DataFrame(features).transpose().set_index("patient_id")
     water_found_points = features_df[features_df["water_count"] > 0]
 
-    outstring = f"Found water near {len(water_found_points)} of {len(in_data)}\n"
-    outstring += f"Lat/lng was missing for {num_missing} rows\n"
-    outstring += (
-        tabulate.tabulate(
-            sorted(place_types_counter.items(), key=lambda item: item[1], reverse=True),
-            headers=["Place type", "Count"],
-        )
-        + "\n\n"
-    )
-    outstring += (
-        tabulate.tabulate(
-            sorted(place_names_counter.items(), key=lambda item: item[1], reverse=True),
-            headers=["Place name", "Count"],
-        )
-        + "\n\n"
-    )
-    outstring += (
-        tabulate.tabulate(
-            sorted(num_places_found_counter.items(), key=lambda item: item[0]),
-            headers=["Number of places found", "Count"],
-        )
-        + "\n\n"
-    )
-    print(outstring)
-    with open(f"outputs/{in_filename}-stats.txt", 'w') as f:
-        f.write(outstring)
+    print(f"Found water near {len(water_found_points)} of {len(in_data)}")
+    print(f"Lat/lng was missing for {num_missing} rows")
 
     in_data = in_data.set_index("patient_id", verify_integrity=True)
 
