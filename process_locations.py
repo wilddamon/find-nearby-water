@@ -1,8 +1,6 @@
 import argparse
 import collections
-import matplotlib.pyplot as pyplot
 import pandas
-from pprint import pprint
 import sys
 
 import surf_clubs
@@ -167,8 +165,6 @@ def main():
     data_no_water.to_csv(
         f"{args.filename[:-4]}-processed.csv"
     )
-
-    pyplot.show()
 
 
 if __name__ == "__main__":
