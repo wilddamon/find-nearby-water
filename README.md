@@ -61,9 +61,26 @@ relevant water features for the first 10 points, and outputs a file named
   
   python add_water_to_data.py data/random_lat_lngs.csv
   
+# process\_locations.py
+Takes the result from add\_water\_to\_data.py, and removes piers/bridges, replaces surf life saving
+clubs with their nearest beach, corrects some untyped water features, and removes more distant
+instances of the same water type. Outputs the result to a file in the outputs directory.
+
+Options:
+*filename* (required) the path to a .csv file containing the input data.
+*--limit_points=n* limits the number of points to the first n. Useful for testing changes.
+
+Usage
+
+    python process_locations.py <filename>
+
+For example, this takes the result from add\_water\_to\_data.py (after running on the random data
+included), processes it, then outputs a "outputs/random\_lat\_lngs-with-water-processed.csv.
+
+    python process_locations.py outputs/random_lat_lngs-with-water.csv
 
 # prioritise\_location\_type.py
-Takes the result from add\_water\_to\_data.py, and applies a prioritisation heuristic on any results
+Takes the result from process\_locations.py, and applies a prioritisation heuristic on any results
 that include more than one water feature. The feature that should be prioritised is added in a new
 column "prioritised_feature_index" in the output file "{input_file}-heuristic-applied.csv".
 
