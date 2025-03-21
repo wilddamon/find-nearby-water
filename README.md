@@ -86,6 +86,26 @@ Usage:
   
     python prioritise_location_type.py <filename>
 
+# interactive\_map.py
+Plots the given points on an interactive map that opens in a web browser, highlighting nearby water features.
+
+Options:
+*filename* (required) the path to a .csv file containing the input data.
+*radius* (required) the radius in metres to search for water features.
+*--regional_radius* the radius in metres to use in outer regional and remote areas.
+*--limit_points* limits the number of points to the first n. Useful for testing changes.
+*--output_dir* Saves the map to a file in the given directory.
+*--no-open* Suppresses opening the map in the browser.
+
+Usage:
+  
+    python interactive_map.py <filename> <radius> [--regional_radius REGIONAL_RADIUS] [--limit_points LIMIT_POINTS] [--output_dir OUTPUT_DIR] [--no-open]
+  
+For example, this takes the random points file, and plots water features within 500m of the first 100 points, and opens it in a browser.
+  
+    python interactive_map.py data/random_lat_lngs.csv 500 --limit_points=100
+  
+
 # water\_tags.py
 Defines which Open Street Maps tags to query. The selection of these tags was
 informed by reading the following OSM wiki pages:  
