@@ -152,7 +152,6 @@ def run(in_data, radius, regional_radius, output_dir=None, open_in_browser=False
 
 def main():
     parser = argparse.ArgumentParser(
-        prog="plot_points_from_csv",
         description="gets water features from a specified radius around points,"
         + "and plots them on a map.",
     )

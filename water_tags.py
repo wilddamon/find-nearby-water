@@ -46,8 +46,6 @@ TAGS = {
     ],
     "man_made": [
         "breakwater",
-        "bridge",
-        "pier",
         "storage_tank",
         "tailings_pond",
         "water_well",
