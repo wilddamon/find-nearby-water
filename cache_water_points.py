@@ -35,8 +35,8 @@ def get_cached_features_near_point(patient_id, radius, max_features=None):
 
     relevant_count = 0
     for i in range(min(row["water_count"], OUTPUT_WIDTH)):
+        relevant_count = i
         if row[f"water_distance_{i}"] > radius:
-            relevant_count = i - 1 if i > 0 else 0
             break
     
     if max_features is not None:
