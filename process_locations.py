@@ -113,18 +113,43 @@ def main():
             water_type = water_fields["water_type"][i]
             name = water_fields["water_name"][i]
             if water_type == "natural:water" and pandas.notna(name):
-                if name == "Berrara Creek" or name == "Kooloonbung Creek":
+                if (
+                    name == "Berrara Creek"
+                    or name == "Kooloonbung Creek"
+                    or name == "Mooball Creek"
+                    or name == "Tallow Creek"
+                    or name == "Muddy Creek"
+                ):
                     water_fields["water_type"][i] = "creek"
-                elif name == "Middle Basin":
+                elif (
+                    name == "Middle Basin"
+                    or name == "Seals for the Wild"
+                    or name == "Northern Water Feature"
+                    or name == "Mill Pond"
+                ):
                     water_fields["water_type"][i] = "pond"
+                elif name == "Wagonga Inlet":
+                    water_fields["water_type"][i] = "harbour"
+                elif (
+                    name == "Boomerang Bay"
+                    or name == "Olympic Pool"
+                    or name == "Rapid River"
+                ):
+                    water_fields["water_type"][i] = "swimming_pool"
+                elif name == "Terranora Broadwater" or name == "Green Pool":
+                    water_fields["water_type"][i] = "lake"
+                elif name == "Sussex Inlet":
+                    water_fields["water_type"][i] = "inlet"
+                elif name == "Darling Harbour Woodward Water Feature":
+                    water_fields["water_type"][i] = "fountain"
+                elif name == "Engadine Avenue Wetland":
+                    water_fields["water_type"][i] = "wetland"
                 elif name == "Port Hunter / Yohaaba":
                     water_fields["water_name"][i] = "Hunter River"
                     water_fields["water_type"][i] = "river"
                 elif name == "Toddlers":
                     water_fields["water_type"][i] = "swimming_pool"
                     water_fields["water_name"][i] = "Cootamundra Pool"
-                elif name == "Wagonga Inlet":
-                    water_fields["water_type"][i] = "harbour"
                 else:
                     unnamed_water_series.append(name)
 
